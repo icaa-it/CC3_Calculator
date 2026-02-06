@@ -26,7 +26,7 @@ public class Main {
                 break;
             case 3: 
                 break;
-            case 4:
+            case 4: System.out.println("Result: " + (a - b));
                 break;
             default:
                 System.out.println("Invalid choice!");
