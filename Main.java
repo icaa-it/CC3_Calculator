@@ -22,7 +22,11 @@ public class Main {
         switch (choice) {
             case 1:  System.out.println("Result: " + (a * b));
                 break;
-            case 2: 
+            case 2:   if (b != 0) {
+                    System.out.println("Result: " + (a / b));
+                } else {
+                    System.out.println("Error: Cannot divide by zero!");
+                }
                 break;
             case 3: 
                 break;
