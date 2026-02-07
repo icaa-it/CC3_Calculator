@@ -28,7 +28,7 @@ public class Main {
                     System.out.println("Error: Cannot divide by zero!");
                 }
                 break;
-            case 3: 
+            case 3: System.out.println("Result: " + (a + b));
                 break;
             case 4: System.out.println("Result: " + (a - b));
                 break;
